@@ -1,7 +1,142 @@
-title: "Series Bible"
-description: "Core series information for Anime Agent System."
-world:
-  setting: ""
-  themes: []
-characters: []
-episodes: []
+series:
+  title: "The Map Beyond the Red Sea"
+  format: "vertical philosophical anime shorts"
+  target_platforms:
+    - "Instagram Reels"
+    - "YouTube Shorts"
+  target_duration_seconds:
+    min: 20
+    max: 45
+  aspect_ratio: "9:16"
+  resolution:
+    width: 1080
+    height: 1920
+
+creative_direction:
+  genre:
+    - "original nautical shonen adventure"
+    - "philosophical short stories"
+    - "symbolic self-reflection"
+  tone:
+    - "quiet"
+    - "reflective"
+    - "hopeful"
+    - "emotionally clear"
+    - "minimal but meaningful"
+  story_sources:
+    allowed:
+      - "public-domain philosophical ideas"
+      - "original retellings"
+      - "Buddhist-inspired moral lessons"
+      - "Biblical parable-inspired moral lessons"
+      - "Stoic-inspired reflections"
+      - "folklore-inspired symbolic lessons"
+    not_allowed:
+      - "copying modern copyrighted translations verbatim"
+      - "copying anime, manga, film, or game characters"
+      - "direct imitation of One Piece or any copyrighted series"
+
+visual_style:
+  style_name: "minimal original nautical shonen anime"
+  rules:
+    - "2D anime look"
+    - "bold black outlines"
+    - "clean cel shading"
+    - "simple backgrounds"
+    - "limited important props only"
+    - "one character on screen whenever possible"
+    - "emotion and symbolism over visual complexity"
+    - "avoid photorealism"
+    - "avoid 3D render look"
+    - "avoid over-detailed backgrounds"
+    - "avoid crowded scenes"
+
+production_rules:
+  character_count_per_shot:
+    preferred: 1
+    maximum: 1
+  shot_count_per_episode:
+    preferred_min: 4
+    preferred_max: 6
+  visual_complexity:
+    level: "low"
+    description: "Only include what is absolutely necessary for the story meaning."
+  motion_style:
+    primary:
+      - "slow zoom"
+      - "slow pan"
+      - "light parallax"
+      - "glow pulse"
+      - "fog drift"
+      - "subtle camera shake"
+    avoid:
+      - "complex fight animation"
+      - "crowd animation"
+      - "multi-character acting"
+      - "high-detail full scene animation"
+
+main_character:
+  character_id: "captain_aro_v1"
+  role: "wandering young sea-adventure hero who learns philosophical truths through journeys"
+  function_in_story:
+    - "observer"
+    - "thinker"
+    - "learner"
+    - "symbolic hero"
+  emotional_range:
+    - "curious"
+    - "confused"
+    - "playful"
+    - "quietly sad"
+    - "realising truth"
+    - "peaceful acceptance"
+
+episode_structure:
+  default:
+    - beat: 1
+      name: "visual hook"
+      purpose: "immediately show a symbolic situation"
+      duration_seconds: 4
+    - beat: 2
+      name: "inner conflict"
+      purpose: "Aro struggles with a thought, desire, fear, or attachment"
+      duration_seconds: 8
+    - beat: 3
+      name: "symbolic observation"
+      purpose: "A simple object or event reveals the lesson"
+      duration_seconds: 8
+    - beat: 4
+      name: "realisation"
+      purpose: "Aro understands the deeper meaning"
+      duration_seconds: 8
+    - beat: 5
+      name: "closing line"
+      purpose: "end with one memorable philosophical sentence"
+      duration_seconds: 5
+
+prompting_rules:
+  global_positive_style_block: >
+    original minimal nautical shonen anime style, 2d anime look, bold black outlines,
+    clean cel shading, vibrant but controlled colors, expressive anime face,
+    simple symbolic composition, cinematic vertical framing, sharp lineart,
+    high quality, clean image
+
+  global_negative_style_block: >
+    multiple characters, crowd, busy background, over-detailed scene, photorealistic,
+    realistic, 3d render, cgi, blurry, lowres, bad anatomy, bad hands, extra fingers,
+    missing fingers, text, watermark, signature, logo, copied character, pirate hat,
+    eyepatch, armor, modern city, modern vehicles
+
+long_term_pipeline:
+  current_phase:
+    - "prompt locking"
+    - "variant generation"
+    - "manual curation"
+    - "simple motion animatics"
+  next_phase:
+    - "IPAdapter reference-guided generation"
+    - "inpainting corrections"
+  later_phase:
+    - "character LoRA after enough curated Aro images exist"
+    - "micro-animation clips"
+    - "voiceover and subtitle automation"

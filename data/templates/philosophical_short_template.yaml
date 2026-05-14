@@ -1,0 +1,56 @@
+episode_template:
+  format: "vertical philosophical short"
+  duration_seconds:
+    target: 35
+    minimum: 20
+    maximum: 45
+  aspect_ratio: "9:16"
+  main_character_count: 1
+
+required_fields:
+  - episode_id
+  - title
+  - core_teaching
+  - source_inspiration
+  - original_retelling
+  - narration
+  - shotlist
+  - final_line
+
+episode_outline:
+  episode_id: "episode_xxx"
+  title: ""
+  core_teaching: ""
+  source_inspiration: ""
+  copyright_rule: "Use original paraphrase only. Do not copy modern copyrighted translations."
+  visual_motif: ""
+  emotional_arc:
+    start: ""
+    middle: ""
+    end: ""
+
+narration_rules:
+  style:
+    - "short sentences"
+    - "plain language"
+    - "philosophical but not preachy"
+    - "emotionally clear"
+    - "suitable for voiceover"
+  avoid:
+    - "long lectures"
+    - "religious argument"
+    - "direct copied scripture translation"
+    - "over-explaining"
+
+shotlist_rules:
+  shot_count:
+    preferred_min: 4
+    preferred_max: 6
+  each_shot_must_have:
+    - shot_id
+    - duration_seconds
+    - visual_description
+    - character_emotion
+    - symbolic_meaning
+    - generation_prompt
+    - negative_prompt
