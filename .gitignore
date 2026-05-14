@@ -1,27 +1,149 @@
+# ============================================================
+# macOS
+# ============================================================
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+
+# ============================================================
+# Python
+# ============================================================
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
 .venv/
 venv/
-.env
+env/
+ENV/
 
-# AI/model files
+.ipynb_checkpoints/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+*.log
+
+
+# ============================================================
+# Environment / secrets
+# ============================================================
+.env
+.env.*
+!.env.example
+
+*.key
+*.pem
+*.crt
+*.p12
+
+
+# ============================================================
+# AI model files - DO NOT COMMIT
+# ============================================================
 *.safetensors
 *.ckpt
 *.pt
 *.pth
 *.bin
-models/
+*.onnx
+*.gguf
+*.engine
 
-# Generated junk/output
-data/tmp/
-data/cache/
+models/
+checkpoints/
+loras/
+vae/
+embeddings/
+
+
+# ============================================================
+# ComfyUI / local generation outputs
+# ============================================================
+ComfyUI/output/
+ComfyUI/input/
+comfyui/output/
+comfyui/input/
+
 data/generated/
 data/outputs/
-data/episodes/*/final/*.mp4
-data/episodes/*/final/*.mov
-data/episodes/*/final/*.mkv
-data/episodes/*/audio/*.wav
-data/episodes/*/audio/*.mp3
+data/tmp/
+data/cache/
 
-*.log
+
+# ============================================================
+# Episode generated media
+# ============================================================
+data/episodes/*/keyframes/generated/
+data/episodes/*/keyframes/rejected/
+data/episodes/*/variants/
+data/episodes/*/renders/
+data/episodes/*/animated_clips/
+data/episodes/*/final/
+data/episodes/*/temp/
+data/episodes/*/cache/
+
+
+# ============================================================
+# Large media files
+# ============================================================
+*.mp4
+*.mov
+*.mkv
+*.avi
+*.webm
+*.gif
+
+*.wav
+*.mp3
+*.aac
+*.flac
+*.ogg
+
+*.psd
+*.kra
+*.blend
+
+
+# ============================================================
+# Optional: allow selected curated PNG/JPG assets
+# ============================================================
+# These are NOT ignored:
+# data/characters/*.png
+# data/episodes/*/keyframes/selected/*.png
+#
+# Keep only final selected lightweight reference images in Git.
+# Do not commit random generated variants.
+
+
+# ============================================================
+# VS Code local settings
+# ============================================================
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+
+# Keep useful shared VS Code recommendations if you create them:
+!.vscode/extensions.json
+
+
+# ============================================================
+# Build/package artifacts
+# ============================================================
+dist/
+build/
+*.egg-info/
+
+
+# ============================================================
+# Node / frontend, if added later
+# ============================================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
