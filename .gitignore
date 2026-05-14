@@ -1,14 +1,11 @@
-# macOS
 .DS_Store
-
-# Python
 __pycache__/
 *.pyc
 .venv/
 venv/
 .env
 
-# ComfyUI / model files - DO NOT COMMIT MODELS
+# AI/model files
 *.safetensors
 *.ckpt
 *.pt
@@ -16,18 +13,15 @@ venv/
 *.bin
 models/
 
-# Generated temporary outputs
+# Generated junk/output
 data/tmp/
 data/cache/
 data/generated/
 data/outputs/
-
-# Large episode exports
 data/episodes/*/final/*.mp4
 data/episodes/*/final/*.mov
 data/episodes/*/final/*.mkv
 data/episodes/*/audio/*.wav
 data/episodes/*/audio/*.mp3
 
-# Logs
 *.log
