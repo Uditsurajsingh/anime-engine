@@ -1,0 +1,72 @@
+{
+  "project": "The Map Beyond the Red Sea",
+  "episode": "episode_001",
+  "style_anchor": "original 2D nautical shonen anime, bold black outlines, clean cel shading, vibrant tropical adventure colors, expressive anime faces, hand-drawn anime frame look, dynamic but readable character design",
+  "negative_prompt_global": "photorealistic, 3d render, realistic skin texture, western comic style, copied copyrighted character, logo, watermark, blurry, low quality, bad anatomy, extra fingers, missing fingers, deformed hands, inconsistent outfit, realistic armor, modern clothing, dull colors",
+  "characters": [
+    {
+      "character_id": "captain_aro_v1",
+      "name": "Captain Aro",
+      "core_description": "original young sea-adventure anime hero, messy black hair, small scar under left eye, red sleeveless jacket, straw-colored scarf, dark knee-length shorts, brown sandals, lean agile body, playful fearless grin",
+      "reference_prompts": [
+        {
+          "image_id": "aro_front_full_body",
+          "purpose": "main front reference",
+          "positive_prompt": "original young sea-adventure anime hero, messy black hair, small scar under left eye, red sleeveless jacket, straw-colored scarf, dark knee-length shorts, brown sandals, lean agile body, playful fearless grin, full body front view, standing pose, clean white background, original 2D nautical shonen anime, bold black outlines, cel shading, vibrant tropical colors, clean character design sheet"
+        },
+        {
+          "image_id": "aro_3quarter_full_body",
+          "purpose": "3/4 body reference",
+          "positive_prompt": "same original young sea-adventure anime hero, messy black hair, small scar under left eye, red sleeveless jacket, straw-colored scarf, dark knee-length shorts, brown sandals, lean agile body, playful confident expression, full body 3/4 view, clean white background, original 2D nautical shonen anime, bold black outlines, cel shading, vibrant tropical colors, character reference sheet"
+        },
+        {
+          "image_id": "aro_face_smile",
+          "purpose": "face close-up reference",
+          "positive_prompt": "close-up portrait of original young sea-adventure anime hero, messy black hair, small scar under left eye, playful fearless grin, straw-colored scarf visible near neck, expressive anime eyes, original 2D nautical shonen anime, bold black outlines, cel shading, vibrant tropical colors, clean face reference"
+        },
+        {
+          "image_id": "aro_action_pose",
+          "purpose": "action pose reference",
+          "positive_prompt": "original young sea-adventure anime hero, messy black hair, small scar under left eye, red sleeveless jacket, straw-colored scarf, dark knee-length shorts, brown sandals, lean agile body, jumping forward with energetic action pose, playful fearless grin, original 2D nautical shonen anime, bold black outlines, cel shading, vibrant tropical colors, dynamic character reference"
+        },
+        {
+          "image_id": "aro_comedy_shocked",
+          "purpose": "comedy expression reference",
+          "positive_prompt": "original young sea-adventure anime hero, messy black hair, small scar under left eye, red sleeveless jacket, straw-colored scarf, exaggerated shocked comedy expression, wide eyes, open mouth, expressive anime face, original 2D nautical shonen anime, bold black outlines, cel shading, vibrant tropical colors, clean character expression reference"
+        }
+      ]
+    },
+    {
+      "character_id": "navigator_mina_v1",
+      "name": "Navigator Mina",
+      "core_description": "original clever young navigator anime girl, short blue-black hair, yellow bandana, teal cropped jacket, dark fitted trousers, leather map pouch, slim athletic build, calm sharp eyes, composed sarcastic expression",
+      "reference_prompts": [
+        {
+          "image_id": "mina_front_full_body",
+          "purpose": "main front reference",
+          "positive_prompt": "original clever young navigator anime girl, short blue-black hair, yellow bandana, teal cropped jacket, dark fitted trousers, leather map pouch, slim athletic build, calm sharp eyes, composed sarcastic expression, full body front view, standing pose, clean white background, original 2D nautical shonen anime, bold black outlines, cel shading, vibrant tropical colors, clean character design sheet"
+        },
+        {
+          "image_id": "mina_3quarter_full_body",
+          "purpose": "3/4 body reference",
+          "positive_prompt": "same original clever young navigator anime girl, short blue-black hair, yellow bandana, teal cropped jacket, dark fitted trousers, leather map pouch, slim athletic build, calm sharp eyes, composed expression, full body 3/4 view, clean white background, original 2D nautical shonen anime, bold black outlines, cel shading, vibrant tropical colors, character reference sheet"
+        },
+        {
+          "image_id": "mina_face_serious",
+          "purpose": "face close-up reference",
+          "positive_prompt": "close-up portrait of original clever young navigator anime girl, short blue-black hair, yellow bandana, calm sharp eyes, serious expression, teal cropped jacket collar visible, original 2D nautical shonen anime, bold black outlines, cel shading, vibrant tropical colors, clean face reference"
+        },
+        {
+          "image_id": "mina_map_pose",
+          "purpose": "navigator action reference",
+          "positive_prompt": "original clever young navigator anime girl, short blue-black hair, yellow bandana, teal cropped jacket, dark fitted trousers, leather map pouch, holding an ancient map with focused serious expression, original 2D nautical shonen anime, bold black outlines, cel shading, vibrant tropical colors, clean character action reference"
+        },
+        {
+          "image_id": "mina_annoyed_expression",
+          "purpose": "comedy/reaction reference",
+          "positive_prompt": "original clever young navigator anime girl, short blue-black hair, yellow bandana, teal cropped jacket, annoyed sarcastic anime expression, one eyebrow raised, arms crossed, original 2D nautical shonen anime, bold black outlines, cel shading, vibrant tropical colors, clean character expression reference"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "3": {
+    "inputs": {
+      "seed": 100011,
+      "steps": 28,
+      "cfg": 5,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1,
+      "model": [
+        "4",
+        0
+      ],
+      "positive": [
+        "6",
+        0
+      ],
+      "negative": [
+        "7",
+        0
+      ],
+      "latent_image": [
+        "5",
+        0
+      ]
+    },
+    "class_type": "KSampler",
+    "_meta": {
+      "title": "KSampler"
+    }
+  },
+  "4": {
+    "inputs": {
+      "ckpt_name": "animagine-xl-4.0-opt.safetensors"
+    },
+    "class_type": "CheckpointLoaderSimple",
+    "_meta": {
+      "title": "Load Checkpoint"
+    }
+  },
+  "5": {
+    "inputs": {
+      "width": 768,
+      "height": 1024,
+      "batch_size": 1
+    },
+    "class_type": "EmptyLatentImage",
+    "_meta": {
+      "title": "Empty Latent Image"
+    }
+  },
+  "6": {
+    "inputs": {
+      "text": "solo, 1boy, teenage male anime sea-adventure hero, full body, three-quarter view, standing still, single character only, centered composition, clean white background, messy black hair, small scar under left eye, red sleeveless jacket, straw-colored scarf around neck, dark knee-length shorts, brown sandals, lean agile male body, playful fearless grin, simple character reference pose, original nautical anime adventure character, bold black outlines, clean cel shading, vibrant tropical colors, expressive anime face, sharp lineart, masterpiece, high score, great score, absurdres",
+      "clip": [
+        "4",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Prompt)"
+    }
+  },
+  "7": {
+    "inputs": {
+      "text": "multiple people, multiple boys, multiple characters, crowd, group, team, crew, duplicate character, clones, character sheet, multiple poses, split screen, collage, action scene, fighting, running, flying, jumping, sea background, ocean, sky, clouds, ship, detailed background, lowres, bad anatomy, bad hands, missing fingers, extra fingers, extra limbs, cropped body, out of frame, worst quality, low quality, low score, bad score, average score, text, signature, watermark, username, blurry, photorealistic, realistic, 3d render, cgi, beard, armor, modern shoes, hat, pirate hat, eyepatch",
+      "clip": [
+        "4",
+        1
+      ]
+    },
+    "class_type": "CLIPTextEncode",
+    "_meta": {
+      "title": "CLIP Text Encode (Prompt)"
+    }
+  },
+  "8": {
+    "inputs": {
+      "samples": [
+        "3",
+        0
+      ],
+      "vae": [
+        "4",
+        2
+      ]
+    },
+    "class_type": "VAEDecode",
+    "_meta": {
+      "title": "VAE Decode"
+    }
+  },
+  "9": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": [
+        "8",
+        0
+      ]
+    },
+    "class_type": "SaveImage",
+    "_meta": {
+      "title": "Save Image"
+    }
+  }
+}

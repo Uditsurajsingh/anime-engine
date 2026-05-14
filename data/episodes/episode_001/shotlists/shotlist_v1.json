@@ -1,0 +1,122 @@
+[
+  {
+    "shot_id": "S001",
+    "duration_seconds": 5,
+    "scene_type": "opening",
+    "location": "open sea at sunrise",
+    "characters": [],
+    "visual": "A small wooden ship sails across a bright ocean at sunrise, with a distant island barely visible on the horizon.",
+    "camera": "wide cinematic establishing shot, slow forward push",
+    "emotion": "mysterious adventure",
+    "dialogue": "Narrator: Beyond the Red Sea, some maps are better left buried.",
+    "animation_method": "background keyframe with slow camera movement"
+  },
+  {
+    "shot_id": "S002",
+    "duration_seconds": 5,
+    "scene_type": "hero_intro",
+    "location": "ship mast",
+    "characters": ["captain_aro_v1"],
+    "visual": "Captain Aro stands on the ship mast with a playful fearless grin. His straw-colored scarf flutters in the sea wind.",
+    "camera": "low-angle hero shot",
+    "emotion": "confidence",
+    "dialogue": "",
+    "animation_method": "character keyframe with subtle scarf/wind motion"
+  },
+  {
+    "shot_id": "S003",
+    "duration_seconds": 6,
+    "scene_type": "mystery",
+    "location": "ship deck",
+    "characters": ["captain_aro_v1"],
+    "visual": "Aro opens an old wooden chest. A glowing ancient map rises from inside, casting golden light on his face.",
+    "camera": "close-up shot, dramatic glow",
+    "emotion": "discovery and excitement",
+    "dialogue": "Aro: Finally! Treasure!",
+    "animation_method": "keyframe with glow effect"
+  },
+  {
+    "shot_id": "S004",
+    "duration_seconds": 6,
+    "scene_type": "reaction",
+    "location": "ship deck",
+    "characters": ["captain_aro_v1", "navigator_mina_v1"],
+    "visual": "Navigator Mina quickly grabs the glowing map from Aro and studies it with a serious expression.",
+    "camera": "medium two-character shot",
+    "emotion": "warning",
+    "dialogue": "Mina: That is not treasure.",
+    "animation_method": "character keyframe with subtle camera movement"
+  },
+  {
+    "shot_id": "S005",
+    "duration_seconds": 6,
+    "scene_type": "comedy",
+    "location": "ship deck",
+    "characters": ["captain_aro_v1", "navigator_mina_v1"],
+    "visual": "Aro leans closer to the glowing map with a greedy excited smile while Mina looks annoyed.",
+    "camera": "medium close-up, comedic framing",
+    "emotion": "playful comedy",
+    "dialogue": "Aro: It’s glowing. That means expensive. Mina: No. It means cursed.",
+    "animation_method": "keyframe with small zoom and expression emphasis"
+  },
+  {
+    "shot_id": "S006",
+    "duration_seconds": 6,
+    "scene_type": "conflict",
+    "location": "foggy sea behind the ship",
+    "characters": [],
+    "visual": "A dark rival ship appears through thick fog behind Aro and Mina's ship. Its black sails cut through the mist.",
+    "camera": "wide rear view, ominous reveal",
+    "emotion": "danger",
+    "dialogue": "Mina: Rival ship. Behind us.",
+    "animation_method": "background keyframe with fog movement"
+  },
+  {
+    "shot_id": "S007",
+    "duration_seconds": 7,
+    "scene_type": "action",
+    "location": "ship deck during attack",
+    "characters": ["captain_aro_v1", "navigator_mina_v1"],
+    "visual": "A cannon blast hits the water beside the ship. The deck shakes. Mina holds the map tightly while Aro laughs excitedly.",
+    "camera": "dynamic tilted action shot",
+    "emotion": "chaos and excitement",
+    "dialogue": "Aro: Great. I was getting bored.",
+    "animation_method": "keyframe with camera shake, water splash, impact effect"
+  },
+  {
+    "shot_id": "S008",
+    "duration_seconds": 7,
+    "scene_type": "action_montage",
+    "location": "stormy ship deck",
+    "characters": ["captain_aro_v1"],
+    "visual": "Aro jumps from the mast toward the deck as ropes snap and rain begins to fall around him.",
+    "camera": "low-angle dynamic jump shot",
+    "emotion": "reckless courage",
+    "dialogue": "",
+    "animation_method": "priority image-to-video later, keyframe first"
+  },
+  {
+    "shot_id": "S009",
+    "duration_seconds": 6,
+    "scene_type": "reveal",
+    "location": "stormy sea",
+    "characters": ["navigator_mina_v1"],
+    "visual": "The glowing map unfolds by itself and points toward a dark forbidden island silhouette beyond the storm.",
+    "camera": "over-the-shoulder shot from Mina's view",
+    "emotion": "mystery and fear",
+    "dialogue": "Narrator: The map pointed to an island erased from every sea chart.",
+    "animation_method": "keyframe with glow and storm movement"
+  },
+  {
+    "shot_id": "S010",
+    "duration_seconds": 6,
+    "scene_type": "cliffhanger",
+    "location": "front of the ship facing the island",
+    "characters": ["captain_aro_v1", "navigator_mina_v1"],
+    "visual": "Aro and Mina stand at the front of the ship facing the forbidden island. Aro grins while Mina looks worried.",
+    "camera": "cinematic final hero shot",
+    "emotion": "adventure and danger",
+    "dialogue": "Aro: Then we go there.",
+    "animation_method": "final keyframe with slow push-in"
+  }
+]
