@@ -1,0 +1,133 @@
+episode:
+  episode_id: "episode_002"
+  title: "The Empty Shell"
+  format: "vertical philosophical anime short"
+  duration_seconds: 35
+  aspect_ratio: "9:16"
+  resolution:
+    width: 1080
+    height: 1920
+
+creative_intent:
+  core_teaching: "Not everything empty is worthless. Some things become empty because life has already moved on."
+  source_inspiration:
+    type: "original philosophical retelling"
+    inspired_by:
+      - "Buddhist-style reflection on attachment"
+      - "general spiritual teaching about letting go"
+    copyright_rule: "Original wording only. Do not copy modern translations or copyrighted devotional text."
+  emotional_arc:
+    start: "Aro feels disappointed after finding an empty shell."
+    middle: "He mistakes emptiness for uselessness."
+    end: "He realises emptiness can mean something has completed its journey."
+
+visual_motif:
+  main_symbol: "empty sea shell"
+  supporting_symbols:
+    - "quiet beach"
+    - "small wave"
+    - "morning light"
+    - "Aro's hand opening slowly"
+  visual_complexity: "minimal"
+  character_count_per_shot: 1
+
+main_character:
+  character_id: "captain_aro_v1"
+  name: "Captain Aro"
+  role_in_episode: "learner and observer"
+
+narration:
+  voice_style: "calm, reflective, simple"
+  full_script: |
+    Aro found a shell by the sea.
+    It was beautiful, but empty.
+    He almost threw it away.
+    Then the tide touched his hand.
+    And he understood.
+    Some things are empty because they are broken.
+    But some things are empty because life has already moved on.
+    Aro closed his hand softly.
+    Not every empty thing is useless.
+    Some empty things are free.
+
+dialogue:
+  aro_lines:
+    - timestamp: "00:00:08"
+      line: "It's empty."
+    - timestamp: "00:00:26"
+      line: "Maybe... it already became something else."
+
+shotlist:
+  - shot_id: "S001"
+    filename: "S001_shell_on_beach.png"
+    duration_seconds: 6
+    beat: "visual hook"
+    visual_description: "An empty sea shell rests on a quiet beach near soft morning waves."
+    character_emotion: "none visible"
+    symbolic_meaning: "The empty shell introduces the theme of emptiness."
+    narration: "Aro found a shell by the sea. It was beautiful, but empty."
+
+  - shot_id: "S002"
+    filename: "S002_aro_picks_shell.png"
+    duration_seconds: 7
+    beat: "inner conflict"
+    visual_description: "Aro kneels on the beach and picks up the shell with a disappointed expression."
+    character_emotion: "curious, then disappointed"
+    symbolic_meaning: "Aro judges the shell because it does not contain what he expected."
+    narration: "He almost threw it away."
+    dialogue: "It's empty."
+
+  - shot_id: "S003"
+    filename: "S003_wave_touches_hand.png"
+    duration_seconds: 7
+    beat: "symbolic observation"
+    visual_description: "A small wave reaches Aro's hand while he holds the empty shell."
+    character_emotion: "silent attention"
+    symbolic_meaning: "The sea reminds him that movement and change are natural."
+    narration: "Then the tide touched his hand. And he understood."
+
+  - shot_id: "S004"
+    filename: "S004_aro_realisation_closeup.png"
+    duration_seconds: 8
+    beat: "realisation"
+    visual_description: "Close-up of Aro's face as his disappointment becomes quiet understanding."
+    character_emotion: "soft realisation"
+    symbolic_meaning: "Aro realises emptiness is not always failure."
+    narration: "Some things are empty because they are broken. But some things are empty because life has already moved on."
+    dialogue: "Maybe... it already became something else."
+
+  - shot_id: "S005"
+    filename: "S005_aro_holds_shell_sunrise.png"
+    duration_seconds: 7
+    beat: "closing line"
+    visual_description: "Aro stands alone by the sea, holding the shell gently as sunrise light fills the frame."
+    character_emotion: "peaceful acceptance"
+    symbolic_meaning: "Aro accepts the shell as a sign of freedom, not loss."
+    narration: "Not every empty thing is useless. Some empty things are free."
+
+generation_rules:
+  visual_style: "minimal original nautical shonen anime"
+  image_model: "Animagine XL 4.0"
+  orientation: "vertical"
+  width: 768
+  height: 1344
+  steps: 30
+  cfg: 5.5
+  sampler: "euler_ancestral"
+  scheduler: "normal"
+  batch_size: 1
+  variants_per_shot: 4
+
+quality_rules:
+  accept_if:
+    - "only Aro appears when character is present"
+    - "Aro roughly matches captain_aro_v1 identity"
+    - "the symbolic object is clear"
+    - "background is simple"
+    - "shot reads clearly on a phone screen"
+  reject_if:
+    - "multiple characters appear"
+    - "Aro looks like a different character"
+    - "scene is too busy"
+    - "symbolic object is missing"
+    - "image contains text, logo, watermark, or unreadable fake writing"

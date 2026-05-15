@@ -1,0 +1,63 @@
+{
+  "episode_id": "episode_002",
+  "title": "The Empty Shell",
+  "format": "vertical philosophical anime short",
+  "model": {
+    "checkpoint": "animagine-xl-4.0-opt.safetensors",
+    "width": 768,
+    "height": 1344,
+    "steps": 30,
+    "cfg": 5.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "normal",
+    "batch_size": 1,
+    "variants_per_shot": 4
+  },
+  "shared_blocks": {
+    "aro_identity": "Captain Aro, solo male teenage anime sea-adventure hero, messy black hair, small scar under left eye, red sleeveless jacket, straw-colored beige scarf around neck, dark navy knee-length shorts, brown sandals, lean agile male body, expressive anime face, original character",
+    "style_block": "original minimal nautical shonen anime style, 2d anime look, bold black outlines, clean cel shading, vibrant but controlled colors, expressive anime face, simple symbolic composition, cinematic vertical framing, sharp lineart, high quality, clean image, masterpiece, high score, great score, absurdres",
+    "global_negative": "multiple characters, crowd, duplicate character, girl, feminine body, different character, wrong outfit, missing scarf, red scarf, yellow shorts, missing scar, pirate hat, eyepatch, armor, modern clothes, modern shoes, photorealistic, realistic, 3d render, cgi, blurry, lowres, bad anatomy, bad hands, extra fingers, missing fingers, extra limbs, cropped, out of frame, text, watermark, signature, logo, busy background, over-detailed scene"
+  },
+  "shots": [
+    {
+      "shot_id": "S001",
+      "base_filename": "S001_shell_on_beach",
+      "duration_seconds": 6,
+      "base_seed": 420001,
+      "positive": "empty sea shell resting on a quiet beach near soft morning waves, no character visible, calm sunrise light, simple sand foreground, gentle ocean wave in background, minimal symbolic composition, peaceful reflective mood, the shell is the clear visual focus, original minimal nautical shonen anime style, 2d anime look, bold black outlines, clean cel shading, vibrant but controlled colors, cinematic vertical framing, sharp lineart, high quality, clean image, masterpiece, high score, great score, absurdres",
+      "negative": "person, character, hand, multiple shells, crowded beach, city, modern objects, trash, realistic shell photo, photorealistic, realistic, 3d render, cgi, blurry, lowres, text, watermark, signature, logo, busy background, over-detailed scene"
+    },
+    {
+      "shot_id": "S002",
+      "base_filename": "S002_aro_picks_shell",
+      "duration_seconds": 7,
+      "base_seed": 420002,
+      "positive": "Captain Aro, solo male teenage anime sea-adventure hero, messy black hair, small scar under left eye, red sleeveless jacket, straw-colored beige scarf around neck, dark navy knee-length shorts, brown sandals, lean agile male body, expressive anime face, original character, kneeling alone on a quiet beach, picking up a small empty sea shell from the sand, disappointed curious expression, simple ocean background, shell clearly visible in his hand, minimal symbolic composition, cinematic vertical framing, original minimal nautical shonen anime style, 2d anime look, bold black outlines, clean cel shading, vibrant but controlled colors, sharp lineart, high quality, clean image, masterpiece, high score, great score, absurdres",
+      "negative": "multiple characters, crowd, duplicate character, girl, feminine body, different character, wrong outfit, missing scarf, red scarf, yellow shorts, missing scar, pirate hat, eyepatch, armor, modern clothes, modern shoes, no shell, missing shell, shell not visible, busy background, photorealistic, realistic, 3d render, cgi, blurry, lowres, bad anatomy, bad hands, extra fingers, missing fingers, text, watermark, signature, logo"
+    },
+    {
+      "shot_id": "S003",
+      "base_filename": "S003_wave_touches_hand",
+      "duration_seconds": 7,
+      "base_seed": 420003,
+      "positive": "close-up of Captain Aro's hand holding a small empty sea shell near the shoreline, a gentle wave touches his hand, red sleeveless jacket sleeve edge and straw-colored beige scarf edge slightly visible, quiet emotional moment, simple sand and water background, shell clearly visible, wave clearly visible, minimal symbolic composition, calm reflective mood, original minimal nautical shonen anime style, 2d anime look, bold black outlines, clean cel shading, vibrant but controlled colors, cinematic vertical framing, sharp lineart, high quality, clean image, masterpiece, high score, great score, absurdres",
+      "negative": "full crowd, multiple characters, girl, feminine body, different character, wrong outfit, missing shell, no shell, no wave, dry sand only, busy background, photorealistic, realistic, 3d render, cgi, blurry, lowres, bad anatomy, bad hands, extra fingers, missing fingers, mutated hand, text, watermark, signature, logo"
+    },
+    {
+      "shot_id": "S004",
+      "base_filename": "S004_aro_realisation_closeup",
+      "duration_seconds": 8,
+      "base_seed": 420004,
+      "positive": "Captain Aro, solo male teenage anime sea-adventure hero, messy black hair, small scar under left eye, red sleeveless jacket, straw-colored beige scarf around neck, expressive anime face, original character, close-up portrait, quiet realisation expression, disappointment turning into understanding, soft sunrise light on his face, simple blurred ocean background, minimal symbolic composition, emotional reflective mood, original minimal nautical shonen anime style, 2d anime look, bold black outlines, clean cel shading, vibrant but controlled colors, cinematic vertical framing, sharp lineart, high quality, clean image, masterpiece, high score, great score, absurdres",
+      "negative": "multiple characters, crowd, duplicate character, girl, feminine body, different character, wrong outfit, missing scarf, red scarf, yellow shorts, missing scar, pirate hat, eyepatch, armor, modern clothes, modern shoes, angry expression, horror expression, screaming, busy background, photorealistic, realistic, 3d render, cgi, blurry, lowres, bad anatomy, bad hands, extra fingers, missing fingers, text, watermark, signature, logo"
+    },
+    {
+      "shot_id": "S005",
+      "base_filename": "S005_aro_holds_shell_sunrise",
+      "duration_seconds": 7,
+      "base_seed": 420005,
+      "positive": "Captain Aro, solo male teenage anime sea-adventure hero, messy black hair, small scar under left eye, red sleeveless jacket, straw-colored beige scarf around neck, dark navy knee-length shorts, brown sandals, lean agile male body, expressive anime face, original character, standing alone by the sea at sunrise, gently holding a small empty sea shell in one hand, peaceful acceptance, ocean horizon behind him, simple symbolic composition, warm sunrise light, cinematic vertical ending shot, original minimal nautical shonen anime style, 2d anime look, bold black outlines, clean cel shading, vibrant but controlled colors, sharp lineart, high quality, clean image, masterpiece, high score, great score, absurdres",
+      "negative": "multiple characters, crowd, duplicate character, girl, feminine body, different character, wrong outfit, missing scarf, red scarf, yellow shorts, missing scar, pirate hat, eyepatch, armor, modern clothes, modern shoes, no shell, missing shell, shell not visible, busy background, photorealistic, realistic, 3d render, cgi, blurry, lowres, bad anatomy, bad hands, extra fingers, missing fingers, text, watermark, signature, logo"
+    }
+  ]
+}

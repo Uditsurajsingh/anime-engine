@@ -1,7 +1,60 @@
-name: "Captain Aro"
-alias: ""
-role: "Captain"
-age: ""
-background: ""
-personality: ""
-appearance: ""
+character:
+  character_id: "captain_aro_v1"
+  name: "Captain Aro"
+  role: "wandering young sea-adventure hero"
+  archetype: "playful seeker who slowly becomes wise"
+  age_appearance: "teenage young adult"
+  gender_presentation: "male"
+
+visual_identity:
+  must_have:
+    - "messy black hair"
+    - "small scar under left eye"
+    - "red sleeveless jacket"
+    - "straw-colored beige scarf around neck"
+    - "dark navy knee-length shorts"
+    - "brown sandals"
+    - "lean agile body"
+    - "expressive anime face"
+  avoid:
+    - "pirate hat"
+    - "eyepatch"
+    - "armor"
+    - "modern shoes"
+    - "yellow shorts"
+    - "red scarf"
+    - "long hair"
+    - "feminine body"
+    - "different outfit"
+
+personality:
+  visible_traits:
+    - "playful"
+    - "fearless"
+    - "curious"
+    - "impulsive"
+    - "emotionally honest"
+  deeper_arc:
+    - "starts as treasure-seeker"
+    - "slowly becomes seeker of meaning"
+    - "learns from sea, silence, loss, and symbols"
+
+prompt_identity_block: >
+  Captain Aro, solo male teenage anime sea-adventure hero, messy black hair,
+  small scar under left eye, red sleeveless jacket, straw-colored beige scarf around neck,
+  dark navy knee-length shorts, brown sandals, lean agile male body,
+  expressive anime face, original character
+
+negative_identity_block: >
+  girl, feminine body, different character, wrong outfit, missing scarf, red scarf,
+  yellow shorts, missing scar, pirate hat, eyepatch, armor, modern shoes,
+  long hair, beard, old man, bulky body, copied character
+
+reference_images:
+  current_status: "temporary v0 references"
+  planned:
+    - "aro_front_full_body.png"
+    - "aro_3quarter_full_body.png"
+    - "aro_face_smile.png"
+    - "aro_thoughtful_closeup.png"
+    - "aro_realisation_expression.png"
